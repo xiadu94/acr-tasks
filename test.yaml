@@ -9,4 +9,4 @@ steps:
     when: ["-"]
   # run built images to be tested
   - id: hello-world-az-test
-    cmd: microsoft/microsoft/azure-cli az acr list
+    cmd: microsoft/azure-cli az acr list
